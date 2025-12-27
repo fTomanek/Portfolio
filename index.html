@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filip - Camera Operator & Live Broadcast Specialist</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">FILIP</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Filip</h1>
+            <p class="subtitle">Cameraman & Videographer</p>
+            <p class="specialties">Live Stream Broadcast • Live Switching • Camera Operating</p>
+            <a href="#portfolio" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Professional broadcast and live streaming specialist</p>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm Filip, a passionate cameraman and videographer specializing in live stream broadcasts and professional camera operation. With extensive experience in live switching and multi-camera productions, I bring technical expertise and creative vision to every project.</p>
+                <p>My focus is on delivering high-quality broadcast content for live events, corporate productions, sports coverage, and streaming platforms. I thrive in fast-paced environments where precision and quick decision-making are essential.</p>
+            </div>
+            <div class="skills">
+                <div class="skill-item">
+                    <h3>Live Switching</h3>
+                    <p>Multi-camera production and real-time video switching for seamless broadcasts</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Camera Operating</h3>
+                    <p>Professional operation of broadcast cameras for studio and field production</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Live Streaming</h3>
+                    <p>Technical setup and execution of live streams for various platforms</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Broadcast Production</h3>
+                    <p>End-to-end production workflow from setup to delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <p class="section-subtitle">Recent projects and productions</p>
+        <div class="portfolio-grid">
+            <div class="portfolio-item" onclick="openProject('switching')">
+                <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&h=450&fit=crop" alt="Multi-Camera Switching">
+                <div class="portfolio-overlay">
+                    <h3>Multi-Camera Live Switching</h3>
+                    <p>Professional live switching for broadcasts and events • Click to view more</p>
+                </div>
+            </div>
+            <div class="portfolio-item" onclick="openProject('graphics')">
+                <img src="https://images.unsplash.com/photo-1551818255-e6e10975bc17?w=800&h=450&fit=crop" alt="Live Graphics">
+                <div class="portfolio-overlay">
+                    <h3>Live Graphics</h3>
+                    <p>Real-time graphics integration and visual effects • Click to view more</p>
+                </div>
+            </div>
+            <div class="portfolio-item" onclick="openProject('camera')">
+                <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&h=450&fit=crop" alt="Camera Operating">
+                <div class="portfolio-overlay">
+                    <h3>Camera Operating</h3>
+                    <p>Expert camera operation for live and recorded productions • Click to view more</p>
+                </div>
+            </div>
+            <div class="portfolio-item" onclick="openProject('studio')">
+                <img src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=800&h=450&fit=crop" alt="Studio">
+                <div class="portfolio-overlay">
+                    <h3>Studio Production</h3>
+                    <p>Full studio setup and multi-camera production • Click to view more</p>
+                </div>
+            </div>
+            <div class="portfolio-item" onclick="openProject('aftermovie')">
+                <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=450&fit=crop" alt="Aftermovie">
+                <div class="portfolio-overlay">
+                    <h3>Aftermovie & Advertisement</h3>
+                    <p>Creative video production and commercial content • Click to view more</p>
+                </div>
+            </div>
+            <div class="portfolio-item" onclick="openProject('social')">
+                <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&h=450&fit=crop" alt="Social Media">
+                <div class="portfolio-overlay">
+                    <h3>Social Media Marketing</h3>
+                    <p>Engaging vertical content for social platforms • Click to view more</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Let's work together on your next project</p>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="filip.tomanek07@email.cz">filip.tomanek07@email.cz</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p><a href="tel:+420733200069">+420 733 200 069</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Location</h3>
+                    <p>Prague, Czech Republic</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Filip - Cameraman & Videographer. All rights reserved.</p>
+    </footer>
+
+    <div id="projectModal" class="modal">
+        <div class="modal-content" id="modalContent"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
